@@ -1,0 +1,59 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	background: #1c2a44;
+}
+.logo span{
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	display: inline-block;
+	animation: wave-text 1s ease-in-out;
+}
+
+.logo span:nth-child(1){
+  animation-delay: 0.0s;
+}
+.logo span:nth-child(2){
+  animation-delay: 0.1s;
+}
+.logo span:nth-child(3){
+  animation-delay: 0.2s;
+}
+.logo span:nth-child(4){
+  animation-delay: 0.3s;
+}
+.logo span:nth-child(5){
+  animation-delay: 0.4s;
+}
+.logo span:nth-child(6){
+  animation-delay: 0.5s;
+}
+.logo span:nth-child(7){
+  animation-delay: 0.6s;
+}
+.logo span:nth-child(8){
+  animation-delay: 0.7s;
+}
+.logo span:nth-child(9){
+  animation-delay: 0.8s;
+}
+.logo span:nth-child(10){
+  animation-delay: 0.9s;
+}
+
+
+@keyframes wave-text{
+	0%{
+		transform: translateY(0em);
+	}
+	50%{
+		transform: translateY(-0.7em);
+	}
+	100%{
+		transform: translateY(0em);
+	}
+}
